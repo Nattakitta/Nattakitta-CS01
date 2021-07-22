@@ -1,0 +1,28 @@
+A=int(input('A='))
+B=int(input('B='))
+C=int(input('C='))
+D=A+B+C
+if(80<=D<=100):
+  D=("A")
+  print(D)
+elif(75<=D<=79):
+    D=("B+")
+    print(D)
+elif(70<=D<=74):
+    D=("B")
+    print(D)
+elif(65<=D<=69):
+    D=("C+")
+    print(D)
+elif(60<=D<=64):
+    D=("C")
+    print(D)
+elif(55<=D<=59):
+    D=("D+")
+    print(D)
+elif(50<=D<=54):
+    D=("D")
+    print(D)
+elif(0<=D<=49):
+    D=("F")
+    print(D)
